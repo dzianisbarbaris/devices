@@ -1,6 +1,6 @@
 public class Laptop extends Device implements Chargeable {
 
-    private int batteryLife;
+    private final int batteryLife;
 
     public Laptop(String serialNumber, String model, int batteryLevel, int batteryLife) {
         super(serialNumber, model, batteryLevel);
@@ -11,13 +11,10 @@ public class Laptop extends Device implements Chargeable {
         return batteryLife;
     }
 
-    public void setBatteryLife(int batteryLife) {
-        this.batteryLife = batteryLife;
-    }
-
     @Override
     public void charge(int amount) {
-        setBatteryLevel(getBatteryLevel() + amount);
+        setBatteryLevel(getBatteryLevel() + amount > 100? 100 : getBatteryLevel() + amount);
+        System.out.println("Ноутбук заряжен до " + getBatteryLevel() + " %");
     }
 
     @Override

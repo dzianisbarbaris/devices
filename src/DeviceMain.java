@@ -1,5 +1,6 @@
 public class DeviceMain {
     public static void main(String[] args) {
+
         Device phone1 = new Smartphone("123-456-789", "Galaxy S21", 50, 108);
         Device laptop1 = new Laptop("987-654-321", "MacBook Pro", 30, 10);
 
@@ -21,5 +22,6 @@ public class DeviceMain {
         System.out.println("\nПосле повторной зарядки:");
         DeviceManager.printDevice(phone1);
         DeviceManager.printDevice(laptop1);
+
     }
 }

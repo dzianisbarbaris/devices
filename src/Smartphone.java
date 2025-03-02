@@ -1,6 +1,6 @@
 public class Smartphone extends Device implements Chargeable{
 
-    private int cameraResolution;
+    private final int cameraResolution;
 
     public Smartphone(String serialNumber, String model, int batteryLevel, int cameraResolution) {
         super(serialNumber, model, batteryLevel);
@@ -11,13 +11,10 @@ public class Smartphone extends Device implements Chargeable{
         return cameraResolution;
     }
 
-    public void setCameraResolution(int cameraResolution) {
-        this.cameraResolution = cameraResolution;
-    }
-
     @Override
     public void charge(int amount) {
-        setBatteryLevel(getBatteryLevel() + amount);
+        setBatteryLevel(getBatteryLevel() + amount > 100? 100 : getBatteryLevel() + amount);
+        System.out.println("Смартфон заряжен до " + getBatteryLevel() + " %");
     }
 
     @Override

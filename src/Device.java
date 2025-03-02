@@ -1,10 +1,10 @@
 import java.util.Objects;
 import java.util.Random;
 
-public class Device implements Cloneable{
-    private static String serialNumber;
-    private String model;
-    private int totalDevices;
+public abstract class Device implements Cloneable {
+    private final String serialNumber;
+    private final String model;
+    private static int totalDevices = 0;
     private int batteryLevel;
 
     public Device(String serialNumber, String model, int batteryLevel) {
@@ -18,24 +18,12 @@ public class Device implements Cloneable{
         return serialNumber;
     }
 
-    public void setSerialNumber(String serialNumber) {
-        this.serialNumber = serialNumber;
-    }
-
     public String getModel() {
         return model;
     }
 
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public int getTotalDevices() {
+    public static int getTotalDevices() {
         return totalDevices;
-    }
-
-    public void setTotalDevices(int totalDevices) {
-        this.totalDevices = totalDevices;
     }
 
     public int getBatteryLevel() {
@@ -67,4 +55,5 @@ public class Device implements Cloneable{
     public String toString() {
         return "Устройство: " + getModel() + ", серийный номер: " + getSerialNumber() + ", заряд: " + getBatteryLevel() + "%";
     }
+
 }

@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55721d1e-3830-4b6e-97a9-7f701ddd4272" name="Changes" comment="my first commit">
-      <change afterPath="$PROJECT_DIR$/src/Chargeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeviceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Smartphone.java" afterDir="false" />
+    <list default="true" id="55721d1e-3830-4b6e-97a9-7f701ddd4272" name="Changes" comment="минимальный набросок">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devices/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devices/Device.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devices/DeviceMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devices/DeviceMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/devices/DeviceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/devices/DeviceManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeviceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeviceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Smartphone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,16 +55,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DeviceMain.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DeviceMain.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740774604416</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="минимальный набросок">
+      <option name="closed" value="true" />
+      <created>1740837316952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740837316952</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="my first commit" />
+    <MESSAGE value="минимальный набросок" />
+    <option name="LAST_COMMIT_MESSAGE" value="минимальный набросок" />
   </component>
 </project>
