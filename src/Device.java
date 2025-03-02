@@ -14,7 +14,7 @@ public abstract class Device implements Cloneable {
         totalDevices++;
     }
 
-    public String getSerialNumber() {
+    public final String getSerialNumber() {
         return serialNumber;
     }
 
